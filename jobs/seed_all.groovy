@@ -1,13 +1,6 @@
 job('Seed All') {
-  scm {
-    git ('https://github.com/robinbowes/jenkins-job-dsl-seed-all-demo.git')
-  }
+  description('test Seed all job')  
   steps {
-    dsl {
-      external('jobs/*.groovy')  
-      // default behavior
-      // removeAction('IGNORE')      
-      removeAction('DELETE')
-    }
+    shell('echo "Hello World!"')
   }
 }
