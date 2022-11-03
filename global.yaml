@@ -1,0 +1,775 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - usernamePassword:
+          description: "Jenkins Slave 1 creds"
+          id: "jenkins_slave_1"
+          password: "{AQAAABAAAAAgA5YdRlGeuIOMHH7PY/3X4o5uWO42GaB8+yNlpUAYUEFysBV6Ang65Gikl2Ei05G2}"
+          scope: GLOBAL
+          username: "root"
+      - usernamePassword:
+          description: "Jenkins Slave DO 1 creds"
+          id: "jenkins_slave_do_1"
+          password: "{AQAAABAAAAAghHMS2DP4uQ+OZCUf0oFPSSah6tURBx1Djjbov6M/IPxydka3JBNDI4rfNLtGhM8Z}"
+          scope: GLOBAL
+          username: "root"
+      - basicSSHUserPrivateKey:
+          description: "Jenkins slave ssh private key"
+          id: "jenkins_ssh_slave_do_1"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "root"
+      - basicSSHUserPrivateKey:
+          description: "Git ssh private key"
+          id: "GH-Jenkins-SSH-Key"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "AyushWahane"
+      - basicSSHUserPrivateKey:
+          description: "Git ssh private key"
+          id: "SSH-GH-dhroopy"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "AyushWahane"
+      - string:
+          description: "Cluster LA1 Kube Config"
+          id: "Kubeconfig_LA1"
+          scope: GLOBAL
+          secret: "{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}"
+      - string:
+          description: "Cluster DO1 Kube Config"
+          id: "Kubeconfig_DO1"
+          scope: GLOBAL
+          secret: "{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}"
+      - string:
+          description: "Jenkins Casc Reload Token"
+          id: "casc_reload_token"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAIQZDh7kcXCbqmSNR6yObgmdju9gyl2svVOGNWySGJPBw1k9tOQuN8R+2mcokwV/fhTEiRA1XCApEz8nj2ehXRT5RtN3OlBsGLBOJZZt1swrXAP4KRIQvlUjNLI1PECNXJYfi38R84/VwmbEtioBabhFcSl1AbdUzKesamga+Rny6LwZx9g7w/MzENY/pNhqS1mRg5X/uRofUOpS+OKcqTgVKjeyeKTe+9e18Ox/hHtZF4LHNb4eu50z5N4lgSwH2NLwKG7RO0/nkRgCEXOtiZgsDgmOOIAkq4B2xl0Q0TTCAsI6SXwGHpUNiKE2MoJA+QyUT8NYjEbsJAwhUqUjwW7c0h49rivqVR+SNDI0UbriDQ/c6hruoffgoBZvWPFymDBNy5+s0kvyVaGL324J32ow41dIjz6qAc1t7NpqJv46bQmT4dfLe/rOuA0+tYuSt1fdi1N+Wk8A1jyGr7a0zAlYo3bFoCqiMx//qke4cdjg4m3MDy5DjdlRWtJm/jjuN5IVQP5qRGL9Tl5N/HgEEUFn8dQkL+jMmvbw9u4TQ2Ps67GuNzVfFt9TJheVeYohHrPQE4EmNKmIP3C+xu6iAiiRDC/uEoSQfuuAvD5p0YSrevqacMWe4j/ITTK0yxSAhMVLzt8DO79LHpQkC4XuzxX4452AmmGQTRXTwn6UF9I7f7Np2JnPLQT/EUnOwy9ZXiEnXfFLyw+VirV8u9nRL4Rcw==}"
+      - string:
+          description: "DockerHub 9930i Credentials."
+          id: "dockerhub_credentials"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwZv81hebv6OsAh/WpasVjYmSt4Jt9HJS0tKBLpJRmL6Z6P61u3rmvl77Q59T3s3kkmY6g9iTgqdD9QCeHo2hKSQ==}"
+      - usernamePassword:
+          description: "DO apps"
+          id: "DO-Apps"
+          password: "{AQAAABAAAAAQ5wZdkHXirIm+nivLo5Qw+uClzH2OTrQRYqT4VwkIoVY=}"
+          scope: GLOBAL
+          username: "root"
+      - usernamePassword:
+          description: "Old Python Scripts"
+          id: "Old-Python Scripts"
+          password: "{AQAAABAAAAAQlam13Xd4Qw75DplqVN9RYElG0ytGGVzndwJV4yJt0zQ=}"
+          scope: GLOBAL
+          username: "root"
+      - usernamePassword:
+          description: "Krishibandhu"
+          id: "Krishibandhu"
+          password: "{AQAAABAAAAAQecjimIVN2wDcV6Vj/byULT2WmWb6as4cS8whIAx93eU=}"
+          scope: GLOBAL
+          username: "user01"
+      - usernamePassword:
+          description: "Python Scripts"
+          id: "Python-Scripts"
+          password: "{AQAAABAAAAAQAwKgm53/L8ACH6JKLJeR54mKVf9xrcLm2aXA/q7LqgQ=}"
+          scope: GLOBAL
+          username: "root"
+      - usernamePassword:
+          description: "test for configuration reload"
+          id: "test"
+          password: "{AQAAABAAAAAQeZib9PHR/7VCPHZqenHAgI0ZaxRyzXejW06SCqzRUgA=}"
+          scope: GLOBAL
+          username: "test"
+      - basicSSHUserPrivateKey:
+          description: "SoilSens-CT.pem"
+          id: "SoilSens-CT"
+          privateKeySource:
+            directEntry:
+              privateKey: "{AQAAABAAAAaQam5EOiPwVNWSciDNDOjpnjYNfoSW0SnoqN0tYy8iHvft73cx8IehCZQx20OEObcCj2dYv2TUOsIYXxcYFNDeApueoqa1toDJav+R4nhS7NL9j4wlrdZwHBrV+EvpSoWYIgOPV+jKReTJSoS8elI8ZBoga2aJMcpyzj2stECmZfvp488/BPntpRVmxrol3lahdjTBmVkU2MizgQ0VESvKTlp4s+VXt916QyvBUZe12sV4nt2L/xl48QX5Gk4BXgDLWVRl/jWlr7hgUlUvUEEKzUjPZvQhOYds3CtSRGQEAW6loJ1ItLVzpLlUdYPKipheQqvW9DJbqgAPZxuJkvXDUse11M/l1+lYg8E4vxOasi9QAxjuKslyAO9u8waR4322rL9p9xY5vt2yA6pnUkbPKhhL8QhN/aHZqpEeCX7xKsfA07kHBA24ZKGpQgXDxvVZN64xcC5FxDGhXyVmLAhTjv8lSkP0TL7tAKzwTwQVrviqgm0xQjDMP7eI7+xqXsKq9JymDG2VebNppHZ6oePEqmAEzSK2ERjXNGALdEdbBMiYJDxiL688R0v0WMaLXWi+K68wop1iRnDv9E/CEiylrSYGGu5MkrCFv/5kl6HFmCbkKzUUvBXqEBUF+xP99/7HmWMX9LiHu+390lq/W5WaSphm2rEwdDY2X2bXUQh7RwovyQxxGxP24vRaUg4JJr1wIxLAqFlEA/ks++PTcJT9Z/Exhmh6viQMSRNn7Ob1TOQ5XfA/OfVKPdBBNm5OKrIfX0zaeMLaFAWkK2R/iM9cVjL6463dQhbbOIvm7I1oZpkvgxZf8c7JRpIckjlFGmrqkmkUPf/CI2KIeQK3KW8TbAO1g5rPgPMTdt9BMNDJnFYc3H8BQyp0hInSBE6J+YKFevaFVLwleBViGI1e8z/xWUAT0jRAvsL4A+px8bcj5n4YLjf6W7LH7JFZQqbPn1heHNDhmuqkLrRQ1c9433NGKAKUAofQNS+5HuOYm2yrmNt9Y2tWavsFkBYxoIKZMF94mpgTXRtxyh3zryWYX8ketKz5WLpc88By6lUesGCSQSZkXfn4qO1e/gZe5W2ackr558QLuKzRWLWHcl5RwG/X6Dn+8jIS9Ah6CiKy8vMJg2tXnOB84ekpcrzQEl1aejIPDVSiNPYucM5jAOCaAYUkjzAmrsxyXXj/yKN4GTcm9blkjWfwACXPJMv8UQZnwEJjaY65z2CA+BSnJ+5xTbiYtumB6e2ZD0ytIxoBwpfOL61UAGtYB5pgCRAT6a2uuOOvtUdNuTUiqrt2OdyqwyUJ7O4+5QkDIH9C28pJND/QzBBNOprm9R6ug4IUOEQ6cVO+GBaqx5Y8NahKIJsrN6FCzuV9IMBReA4i3cuqFZhT0WDvUswjmXNSvuBDdpqLOSvaUCE7DcYbQBZ3v6tQyg9fHJGPR+Qz8j9jGEJyZoSIrXmVm8rzIFoVf/TLMLpN2Ec9FB5CRf+L5Tz/YQ0DLqEPsNE9im27VUS3zpeCd72Z6QSaMl6/NR2tk644EeTETBNQFCcfY8b0Foy1R5kk8op64iXTZvlIbEF7FEueNdeZiOd4wUFio3Ss8WvJT+heXyG/ULS6lrvgR6pGjakU+SVRL6Tazj8yPdXZWAvG1ejqi7x79NypDsmKeg/r3jvOq0nHdO/QiwdYHRGAg3LPCkXIMwk/IAGfHg9TqmkpSdcm/HmVbS3fwB+uHJr3nmg95R4PVkAE0jWqUrqGvKRRUQy3M+la5YAs5TFq037ePyjhM0XBOzmeZUHYCzLLnGPzUjWZ0ARbh2oVew91c/ksQtmLtj7pVPdr+gsQFjSjB0bvG3jJtnZeLCjmjCmgBIfW6j4vvrWzj9m8uA4DJazU8MHzo1nx9ToavO8cdhEj47M5ZwKk542qudWXmgLJ0Prkq7HRzyPrEeYWA7rZCDX6IyWO5bJmlcPTq2qupXISzFJq3xbBwLy33b8rm9LSO0lNsX2ZzSkQ1P8wQONzSM4qJxvRPWYWb0Ttr9HQvOkXeSNuyHqmjhEcEAX/zmuA1E/+hPK+mI9PENWcKx+Y2e99ub6LSGCl7nGx0kn0OdHNmYr2grCOgTr6oN3bjKucJJyOdIIRzwdAu+iMyOVBxLSsTZGXHZ7nLUlKTTip0Mb+aNiczETNAaBdE294vuhfZJsFCh7vxBuoqiEhqkrlHUJ++sGKTb0pDvyzRlK1EGvD+fN3u8/uGSMVvWIZhVZs05XxP97NE1BSxXcB8/TxWRoYIMVfHg==}"
+          scope: GLOBAL
+          username: "ubuntu"
+      - basicSSHUserPrivateKey:
+          description: "AWS API Server"
+          id: "masteraws"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "ubuntu"
+      - basicSSHUserPrivateKey:
+          description: "emall new.pem"
+          id: "Email-ecom"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "ubuntu"
+      - basicSSHUserPrivateKey:
+          description: "ertrailsaws.pem"
+          id: "ecom-ng"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "ubuntu"
+      - usernamePassword:
+          description: "jenkins.9930i.com Creds"
+          id: "Old_jenkins_cerds"
+          password: "{AQAAABAAAAAQChmzGL26rvDZ0s+oC75szQfjzMc64EpS1IBUXl2GH5o=}"
+          scope: GLOBAL
+          username: "server"
+      - usernamePassword:
+          description: "DockerHub 9930i Credentials."
+          id: "DockerHub"
+          password: "{AQAAABAAAAAQrIJgukMM3eZ61k8mlkuXZlqZd5eiOp7EJ8fKqLLFRJ0=}"
+          scope: GLOBAL
+          username: "9930i"
+      - usernamePassword:
+          description: "Migrated from email-ext username/password"
+          id: "34e1da90-8d53-44f4-a4be-1f9be35cc3cb"
+          password: "{AQAAABAAAAAQwqnseyKMp120s4Z+s45pmDI90OBdwdmCNEeZabC7FTM=}"
+          scope: GLOBAL
+          username: "devops-notifications@shahsoftsol.com"
+jenkins:
+  agentProtocols:
+  - "Ping"
+  authorizationStrategy:
+    globalMatrix:
+      permissions:
+      - "Job/Discover:viewer"
+      - "Job/Read:viewer"
+      - "Job/Workspace:viewer"
+      - "Overall/Administer:9930i"
+      - "Overall/Administer:ayush"
+      - "Overall/Administer:krishna"
+      - "Overall/Read:authenticated"
+      - "View/Read:viewer"
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: false
+  disableRememberMe: false
+  labelAtoms:
+  - name: "built-in"
+  - name: "master"
+  - name: "slave"
+  - name: "slaveLa1"
+  labelString: "master"
+  log:
+    recorders:
+    - name: "org.jenkinsci.plugins.periodicbackup"
+  markupFormatter: "plainText"
+  mode: NORMAL
+  myViewsTabBar: "standard"
+  nodeProperties:
+  - envVars:
+      env:
+      - key: "MAVEN_OPTS"
+  - envVars:
+      env:
+      - key: "MAVEN_OPTS"
+  - envVars:
+      env:
+      - key: "MAVEN_OPTS"
+  nodes:
+  - permanent:
+      labelString: "slaveLa1"
+      launcher:
+        ssh:
+          credentialsId: "Jenkins Slave Creds LA1"
+          host: "192.46.215.120"
+          port: 22
+          sshHostKeyVerificationStrategy: "nonVerifyingKeyVerificationStrategy"
+          tcpNoDelay: false
+      name: "slave"
+      nodeDescription: "slave"
+      nodeProperties:
+      - envVars:
+          env:
+          - key: "MAVEN_OPTS"
+      - envVars:
+          env:
+          - key: "MAVEN_OPTS"
+      - envVars:
+          env:
+          - key: "MAVEN_OPTS"
+      - envVars:
+          env:
+          - key: "MAVEN_OPTS"
+      numExecutors: 2
+      remoteFS: "/home/jenkins"
+      retentionStrategy: "always"
+  numExecutors: 1
+  primaryView:
+    all:
+      name: "all"
+  projectNamingStrategy: "standard"
+  quietPeriod: 5
+  remotingSecurity:
+    enabled: true
+  scmCheckoutRetryCount: 0
+  securityRealm:
+    local:
+      allowsSignup: false
+      enableCaptcha: false
+      users:
+      - id: "9930i"
+        name: "9930i"
+        properties:
+        - "apiToken"
+        - "mailer"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+      - id: "ayush"
+        name: "ayush"
+        properties:
+        - "apiToken"
+        - "mailer"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+      - id: "krishna"
+        name: "krishna"
+        properties:
+        - "apiToken"
+        - "mailer"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+      - id: "raja"
+        name: "Raja Tirole"
+        properties:
+        - "apiToken"
+        - mailer:
+            emailAddress: "rajtirole23454@gmail.com"
+        - preferredProvider:
+            providerId: "default"
+      - id: "test"
+        name: "test"
+        properties:
+        - "apiToken"
+        - "mailer"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+      - id: "viewer"
+        name: "viewer"
+        properties:
+        - "apiToken"
+        - "mailer"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+  slaveAgentPort: -1
+  updateCenter:
+    sites:
+    - id: "default"
+      url: "https://updates.jenkins.io/update-center.json"
+  views:
+  - all:
+      name: "all"
+  viewsTabBar: "standard"
+globalCredentialsConfiguration:
+  configuration:
+    providerFilter: "none"
+    typeFilter: "none"
+aws:
+  awsCredentials:
+    credentialsId: "dad3113e-f3e5-4645-bf51-e07202230e20"
+  s3:
+    container: "backupsjenkins"
+    disableSessionToken: false
+    prefix: "backupsjenkins/jenkins/"
+    useHttp: false
+    usePathStyleUrl: false
+security:
+  apiToken:
+    creationOfLegacyTokenEnabled: false
+    tokenGenerationOnCreationEnabled: false
+    usageStatisticsEnabled: true
+  copyartifact:
+    mode: PRODUCTION
+  globalJobDslSecurityConfiguration:
+    useScriptSecurity: false
+  queueItemAuthenticator:
+    authenticators:
+    - global:
+        strategy: "triggeringUsersAuthorizationStrategy"
+  sSHD:
+    port: -1
+  scriptApproval:
+    approvedScriptHashes:
+    - "00dd0aadb336d3fbc88fdae0eacdacc77f03adef"
+    - "011e34fe4cbaff0ccd9bf284e394a8b9dc8a4059"
+    - "017d0db438428731cd600b6ebda805065433520f"
+    - "01b1b3b52144d207e46c6f811e66e079c28600aa"
+    - "01dfd5c7ab43fa03c323e4e4b147f171b4887a91"
+    - "022893d3ed39d742f622ba73a12e9beb0da50e3a"
+    - "023be7c3b178844464bb08172aaf7104b696ce74"
+    - "029887362ccb541d519a1738a0dbef7269702921"
+    - "03445ed18d23d54c01fccce10ca88ef4c61e07be"
+    - "04113cdf7f3a040d0857af997a3905f52850cbcd"
+    - "04155ad0633ea8fb165ba92d288bff0bca924177"
+    - "047ff2bd87aa658e79c1c1eeff27f593d3697399"
+    - "06280e00339468e1a8e9ebee90f4ea101f57d323"
+    - "0745471de2974f5feed0f68a4c5731cb71d4553c"
+    - "082d65eedd936db3983be7ff1b9bc09f286e57a0"
+    - "08a28e5d2a4f513e420286cb85e6d1c2485981a4"
+    - "08c910b839c414f41cbd4f513253129aa2330065"
+    - "08ee2f0f11abb3879c5ce54e3f8fd61015d5af26"
+    - "0a359b210906964924b85963c401522298257d7e"
+    - "0b428bf999a02dada26c99a66ad99ab38541730c"
+    - "0c6bb7147d94a94a08959aeef69d0fa39f1eac0c"
+    - "0d1a1b9c3651ba8e0d311ff50fd59d9cb0bddf89"
+    - "0d57e983b308684f77ee4e88ac112e21e5620bb6"
+    - "0e2ad0daf95ab38dd7b7caea020729d9d9933b2f"
+    - "0fd023c0801445938ad5e66d851820205a29faa4"
+    - "10a756573a004363c19478387fcc24a11b9c8489"
+    - "1141c59921f50fdc87f55969b4f332402de407f4"
+    - "11e59157427644715e19a307978c7a1ba3f3676d"
+    - "130ddfcfa0c094ceda6c90ef66cd182c514db6f5"
+    - "132e5f82e62b50d283f73f4b9eeb5d2aa5426ca0"
+    - "134ce13f967cc015296d809d1d007fe19551c130"
+    - "1381277ac47d582ad77ec4773f6de96fb0da1036"
+    - "13e8409dfea29fe08391632cc9df4856925aa342"
+    - "1442ba65f585b531bf74b60d26702495e549a278"
+    - "145f07c8d7adf6391d9b35a3e48629f3bc414ebd"
+    - "14c2cfb4aa3e98ef97b9f3b5d74de073ff59a685"
+    - "1569081c52092d26583fd82c1800c3381b3344d6"
+    - "16596bb5d39a6278a3b1d6525e8235e13a1ec362"
+    - "18614b5a5596ebc8eb492ad8ae784543d9c39fa3"
+    - "186f67c8a6a47ef40e081bac5b82e124c1de662a"
+    - "189dd5cb6ba5a7d78f901ec88ebbde1d88bc237d"
+    - "194d41bc9f96d53c1ad1f16a92f5d06182fe4d31"
+    - "1976288e32e58f00cdd8fd2a0853c5624bab8cac"
+    - "19ca43292d8ca33111379f540818d798e3624cdc"
+    - "1a1bcfe2441e7aba09d00b2c64b6460d25148af3"
+    - "1a5b23128e616fc786f174b767d317390167d2f8"
+    - "1b14d5855588635ac96853a96550d4d5fd23bf46"
+    - "1b9c93559cdef9a767c67a702ca3e9f6c6cf7566"
+    - "1ba8c0fd5f3ee171ce7d4e5f70b4f1a9fde74f64"
+    - "1bf6a044d5290f927d88c88f52f3b74ed1f7dfab"
+    - "1caa023b623c60c4204473c2fcc67f101bc4a36a"
+    - "1d90312893efa3ef9a2e78f5ddd0ecd5526f3af6"
+    - "1e2a7cf79949b603574e81329f189c61171774a0"
+    - "21d40242c8caa028d6b3df4dac43ad89cb5d64ab"
+    - "22a66d8525244461b6eb262f71c9f509bf12938b"
+    - "230595c658432654451f916aaf494998f672f196"
+    - "236ff3038d699adc43d11bc62f96193d9e5141fc"
+    - "242ac4ddd01cbb21c07b4796dd21492cf7f6a634"
+    - "244bcb215ef5f8eab1d0859e18d9541178ceb405"
+    - "2477264f58cd73eebb2809b43a6b2b57205496af"
+    - "24dc878e4c0970cebcb168f15a5f517c20fa9fb1"
+    - "2502467563911c5090d138ebbd508a5c40b7f694"
+    - "2599966bfe351153d7edfe048f93328a356e3393"
+    - "25dd9469238058cde7ed4a5196659941d99db400"
+    - "26c5c778178cc4067fdab594729a027ec0027a03"
+    - "26cbccead07610815be07feb32c2495ee8536f39"
+    - "26cdad9a46383d0fceed9725b6201900b0b18c2c"
+    - "2897d9564385acff4010b345571872c7374f7c2f"
+    - "28d5d044df6a8617a851eb4bc8425c644454dcf1"
+    - "29fe621e18384784454f405a61592451c54992c9"
+    - "2afa73de6aa3e800b2b42ce813f6702458368b19"
+    - "2ba1a7455e54f32f2ea752da328b2746164f06b7"
+    - "2cfe47cba4c149712429d1bde63e47a84f0efcab"
+    - "2d0e4260d0c9284f78ec7f3adb5423ea58721dc2"
+    - "2d664b3124dd2ae6713ddd29b5a1afe28a4a23cc"
+    - "2f3b5d484d480ab21ec9168b68d9d543b49a612e"
+    - "30ecf610370dc5d5624dc92886e407ddd2ee5487"
+    - "3169ca72a2664559aeae6db16a57c2a030c0fb72"
+    - "3214dc436a702042fbeae13bee45ef041bbbe8bc"
+    - "339f9efa5ebbd6b38c98a9e3cb057e97dd2b8e45"
+    - "341d9faf10e47a1fb1b9cb7bd4aa41237ac90009"
+    - "34fbf7d647bd392f7a55af0bfeaa501a6b523b8e"
+    - "35d656a3e5e59640368779df4207109c85b53d1d"
+    - "3654176f46e7904d445530c33a3d9a131df38ba4"
+    - "3a7c4ec9770bce10fc675d56f739bb221f40d96b"
+    - "3b46a20a6ed24878d789eca8d25d169f9af87e41"
+    - "3bc7f4556f4ad8110ec7589f2f36457de3c908a7"
+    - "3bcc45758bf9716b02f856ca3608af1f4ef59b90"
+    - "3be69b39c835c338cefd78b0a9e07dd500cdfe69"
+    - "3d946ebd61f500895f568b24e2baa97f71f4814a"
+    - "3f041c98a165b0f7ddbb593d5dd588d6431031f6"
+    - "4177f313d854cd0c7d06fca34d08685d1b32cfa0"
+    - "41ccda4346eca048ce80ac0a444ee26de9c8f7f8"
+    - "41fbad2fa9d59a6fc40a1c8f10fb0dba613d31f5"
+    - "422d8c6a47258d90a90a3647d4924ec38dc46f54"
+    - "42323fcfb14318f66979c56053a75903b8a4267b"
+    - "42593ae5f2b2a6cbe75473eafa5ef28089fd15f7"
+    - "425969d74916ace7137a41b9a2aa18d6b74f13ae"
+    - "42be14b928599b57b6c2bfe5640080255698ad9d"
+    - "44208ebe3f052f37616954f2f4ccff36dc7d0afa"
+    - "45cc9003c003cc9b3295fc8d661ea64bebd6e117"
+    - "478c65e91d33d17a86f2fb183d373399f24cbebd"
+    - "492f3be2b7be41aa0ee1d074aab653e8e4733d6e"
+    - "494de84278b8b06bba76016dea6d1b0ad8907a58"
+    - "4a326941c82a2b74e685fb44a237502b3bb74522"
+    - "4aec3f2a0f679db6c281cc3850d29389a5acd665"
+    - "4b5d05dd1f5bfb078378dec16e3ae5b7310239ff"
+    - "4c49eeab68cbcb375bcd57ecc7aeb4c835ddb442"
+    - "4d48f29b086149aa724aafd3bdf961f4a244310c"
+    - "4e0142426a1cc610825fe1166ebc14d74a454749"
+    - "4ecbd74293d3862980b146d3ae34c7eb17d69e3d"
+    - "508ca5b357896e650f4ce030d753eb8fcf9c7ffa"
+    - "52697ec22daa0d63988114104df5b06be551d689"
+    - "53344c200f1fd00629e68b36e8b2a577c6ea70f6"
+    - "53e2b708354211fc69335980306296d710924490"
+    - "556e9d1e19c88e93fc762c4e65be9efd850bb0bf"
+    - "563169db28779f9180e51a1ac492636622e6684a"
+    - "56c447422736b6dc189737503349a48fb128d859"
+    - "572db873428e1849e9afa284ce42460e077374d0"
+    - "575421ecb9d24208bcf8dbaffc42bdf701be49bd"
+    - "579aab489f8f3fcd9d0e8198a2956cf306d89bb3"
+    - "57cb4cd501a01e95958059ff32741504fc82ac72"
+    - "58dced6bb626202bb232e0a3a9699e352feec9cf"
+    - "58e05e72538a8c8ffb203cbe994e4a776a9e1772"
+    - "5b4315e4869996b864159fa326687f0616e0e6d1"
+    - "5b63daa1ac70fce14f06e42f3a8b9d87151c667d"
+    - "5bab7d522134426d27b39f39c338fa6db563c907"
+    - "5bc286e94881dafe04c5c739439f5fccd9c21b25"
+    - "5c047c047cb7942998f25759c7ecf55889c5613a"
+    - "5cb8c90d99b22866da0a79c0000cb772921707e7"
+    - "5fad2a9059ccbcbd9176b7eec4cf8393263ab79d"
+    - "60657b87be20a29bcacc97429c1bbdc4c278660a"
+    - "606d725375c469ad9a8c8f78b6b6a2bfb85c4cc5"
+    - "607c45bbb2c2fa8a1df3a1fb4b9016fafb706a2a"
+    - "60e108a37ef72fbf2fc2eb443f8144f3350f8e04"
+    - "622d319df6dde72a2fff8c56d3cb00805604ce08"
+    - "62c3716fbfd4039c2b6221e0ae3d586b1fd0daf4"
+    - "6363d2f1b57c6f5c9117106303b07f4ad2cf2505"
+    - "63fbccc8248ae06393b5696a4ef903a8b1fc67b3"
+    - "650a4e7f2064ae89be9c7fd8f6ddab7c697d545c"
+    - "6572ef3fd6983823199bc18849c5950a52583d8a"
+    - "65f4f8de43b20d9cb4845a51e458b52c5e82bf75"
+    - "670ac817e31ab7a53849233989d89dade3ad39e8"
+    - "68bebeeaa652d18569568ac52d8ff5ed7c5e7a77"
+    - "699dd80dd2db5a4118e9edb318d164a86df7e871"
+    - "69af9b2846b1e1cacd1482941a255f615b68454f"
+    - "69bb0c86459a719c794ba11e3622b374433d7609"
+    - "69f93ad85d58d47113bfd9b43897be8a47e58037"
+    - "6ab0415936165e34ffbc250586d0d983188d18c4"
+    - "6b1d71cadf48e455a945d0a9edecf2ffd6719b54"
+    - "6b3922575e4aea6f76f8975bae30265df3ec7377"
+    - "6ca5517663a8c65f46039e32168d19923b9b171e"
+    - "6ceeec5710c7c926bc1ec7dcfe5c219e33b9c769"
+    - "6d4efaa3aea950b0be972bbe87b454fef2e48cea"
+    - "6d94c2d57e7a55ab2d5cd06a58305b0b5420f620"
+    - "6e6abb0a4699155ef4a8878ac5dfa27c0852d686"
+    - "6f82d039f4437b82f4dd228c080d84a1a5765458"
+    - "6fea41a3d1d72f44b7f54e5a51e9b39a41690d4f"
+    - "7060138f7fc5b6943733dbb27e0324136968fdfc"
+    - "720888a1f0606b1dab58293463b1816680dd2bf3"
+    - "7270a2c2fef051ce58759846363aab4dd8b28f72"
+    - "73d7e70295cec54ce09601bcf54dbd46a79118b9"
+    - "74231dc916b8edea571c9c849d8e59851f1a52d6"
+    - "7449ac2f4318be383fb1d029633a9ea48fc1cf70"
+    - "74d8e4b3247b701ab5fcc47f2ae127be82514b0a"
+    - "74e43c5c90d3a2d4e64a4c4e06de264e1c43da82"
+    - "755ef91249bdb3afa9e5a099d4b2d559e2e4a7b2"
+    - "75c797eea389736ec8dec1a975594b6460acb28b"
+    - "762c404bd2ad772540bf1bbea8fefc451e469b80"
+    - "76d98cc54a87f186f319b44c5254967e73f8398d"
+    - "782a80d2867c79651eaf232b29aa82722b981250"
+    - "78617fc31fc9b1a8cf09a8aebe304c792ab68307"
+    - "799c163f105a686f54cbfab0ea5f8d720f95b2e6"
+    - "79c9075ee3a48a4bf54a12ace9d259e23bef99a8"
+    - "79ccc66a925358a9ef3fc62726d9c21340a32722"
+    - "7af6c875e71630d4bb80eae37e4147ebd134a017"
+    - "7b5a2ecc8905c6690df7113fbf7b85d891dd048d"
+    - "7b7c70ded9c02b1885cc207583883d29a0d11c37"
+    - "7bcfb420f8a43b2a1bdee02c5d41e9cef92d5925"
+    - "7c1c335d2214c671ca38e2689da3f2abcc2e5311"
+    - "7c96ea84ad2a9b3694ea87f636d98405ca832635"
+    - "7dcf0ad125a1fb46ee9b9122cbde3ceaf1f213ce"
+    - "7e00a302ba058128aa50f74854e1887ba9eeac6d"
+    - "7fe29d29d9ffcfdf8f95d7678b7ccdc2dc444ca2"
+    - "813f8dce8758c9ecd1168e7abd2c007db3d59589"
+    - "8246fa759722c7eccb53b5ad109ffcb7d30bec22"
+    - "82ee94fc616ee31a1fe70de560a4fa9a8e37146f"
+    - "832b20fd4895b254dc0d16f515d08690b93e56e5"
+    - "83c14436a3eeab8ae022842accca36d5d02f95bf"
+    - "84029d716a66ad0594dc29559e3de25016b29146"
+    - "85788b5dc8fd51d5e6a23063122e11dcec36664a"
+    - "86a4589a3f84498ecc26208096831e57a76d8a7f"
+    - "8795a4dcbe485ea0bd733710cb4b4493a1de96a8"
+    - "8815ebe613febe6f809c17acb502d269f339163d"
+    - "8958f0e2b45d661ca75f52ba5e837d00238c42b9"
+    - "8a09636b12a539846864d815bc84dd73ddb8e021"
+    - "8b250ac9d608719dc9ad90d3f7db97d69800ce8c"
+    - "8c875a408e7f671be92fe7a0d60a6ebce1d8c446"
+    - "8cad7912692dcc1ddd205237f163a28d1877c146"
+    - "8d2d37f104da84a92d525718870f4f3c2033e06d"
+    - "8d324f76ad9365d461a0043f1ebaac21848a978b"
+    - "8d46c1b7e6db06789ef9ee7e7a0cb1cba51509ff"
+    - "8e4a8cffd66299a54cc85e72a77c2e75d3d5e37a"
+    - "8e8615433c85a57b884b5d9af9f3737f7077acd1"
+    - "8eb87e9e2d737337450b270ce7f23f0f9068e578"
+    - "8fa711c35db18094634f57e3b261d5c64e15689e"
+    - "91db4144e3638cf9a49fd6f6c0463178b9f17ee1"
+    - "91fce6a9fabf0783c934ee957315c39ddecc24ae"
+    - "9274565f7c062ac5c8c715a69caa6e89ec4bfff5"
+    - "92cc361d61c33133d59bc632f1b4f5189bc81353"
+    - "92fb67cebebdbe1e73541b1422a0702d61e6b25d"
+    - "9358038a8c6c53848c6ac13c28b61c74e206a4ec"
+    - "94994cea6f705f3be06fda5a8073d45ff6a21f54"
+    - "9579a04476a69afabb7c5d27d1eaa68fed407c36"
+    - "959a742c1bc7800be451ff2b86acd34db10b39c2"
+    - "95a39f8c9404f2a48215cc89bcf12944e4d64d13"
+    - "9601a571e0f37dddb0039ba562edf80bf1383a07"
+    - "96550bf26ae57655d2d0be6e2321924ecd3568df"
+    - "969500323b668ac018f0b4f0def39bd731cbd8a5"
+    - "9764ff4fff593fb76f4ebdb65290d3ac3dcb21f5"
+    - "97f0bf1ef5a7765923ea6eb05e576290514a1556"
+    - "98005853541d16daf49a8a499ad24599317e8e50"
+    - "98a0d39f5c1cf13a20e0e3efbe52186d0f2d0743"
+    - "9aa038b4e3c5abc2896e89db383f2202522eef06"
+    - "9c0e001f326de449371340ba17d20e02f8d260a1"
+    - "9c3011b7490f2cdede8096c32054461e815c2920"
+    - "9c8ea8aec2eadd2be331587e784366b1113cf0c0"
+    - "9d307af7a27c7fc03592a9a33ecc4866c6ef0911"
+    - "9efeb1787568b8e10eec360a4af8fec7270a6e86"
+    - "9fafb71f947b4105d4555922956ebfbd7d45522c"
+    - "a02844584a4a4e3572a5f9fbc7800569cd8553d0"
+    - "a0f397711f30a62dfb90a0eb50e0e3192fee9e6d"
+    - "a165eeb010ac0c968c23f0499bbc432eb493d8c8"
+    - "a2ea4eaaf89e4b05b2508f41f41f5e62d6e11e6b"
+    - "a31284e231c27303083757edfedc03ca8844b525"
+    - "a401e4ec0bf44ecc49378232aa158b1ac7b15de9"
+    - "a457c8c3b90862c21f2505dbaf442e16b68ab1b3"
+    - "a45fb6eb58d97d1472827ccd041ffb0b913d9253"
+    - "a46dc614237f3d8377ddbdf021aef9a5531ca870"
+    - "a6f8e6c76db50852200ab3cdfc8b92c293989c2f"
+    - "a6fbdc2b2cea3a582f24c74c501cb7d71b7e598b"
+    - "a6fcd26f3e5476f8320a974390330eecf4437ea7"
+    - "aa8b0d92235a9821db0fd11a2ba4ac7300084f3a"
+    - "ab38729d0eb63f568fe435c5b9b69c3cca36787b"
+    - "ad1198258d99e02eb98bf0c831d85b70f908b497"
+    - "adb9963b9213d9b32fb4d0968f63f64134b40f58"
+    - "addfb03b7ca0a45b3584fecd536dc5dfb58bf174"
+    - "ae15f268e6b34011538aca1a5c4aec1f730418f1"
+    - "ae3b567c560c77e9f1b44a4ed01e9b02e1dd23ea"
+    - "af06a520526d5240413031a5e0a5bce203b796d5"
+    - "afe5be8605a3d12817edfd794bb0dade0058a209"
+    - "aff1d566f232492b372772db4f0b00122bccfcf9"
+    - "b017ed4c6fbd9e2910135d52e2c5e97850245b04"
+    - "b1e120347f2d1ca20f0c940c90ff0ed3ddc8568a"
+    - "b295912a3867061e566b31e635a901a88f93796c"
+    - "b317270b34b33c91906871393f1853fb49e01b65"
+    - "b32897748f8becc881b8587dfa2e9a0280ae46de"
+    - "b33555074823911e17b032590070dba2c809547a"
+    - "b54ac498ba2dbe165bcfbf2cfd76373af010c498"
+    - "b59d0397a33b0e5e8eede34a55d16e612e8c4d15"
+    - "b78ec018adea5684afdc20a3d0100a27c10b5153"
+    - "b8961025d8e835bd8f92b4fbd976e1e0740c0908"
+    - "b8f98a12ddbbf2a2c88a25cd0f8134a9c98a3739"
+    - "bbb7a2d130c221f395406695907b8ed8b1918799"
+    - "bc69e9fb76a501c547424a1022c76f76c17aa341"
+    - "bcae751588d7c8aac5b0ad4d85be639ff7696080"
+    - "bd9939940e3e3c1f24ac5218ce362b34fd0370de"
+    - "bdf5be29c38254d9f75382e354172c51bd433773"
+    - "be6dd31cecd2e49ce1e2981a42e1af36f41a2c75"
+    - "beae320340f755e96ac20d7e138c976aa0c05485"
+    - "bf456744d53d3c746759484912d6b76e96324cbb"
+    - "c23a6df5f4c3fa6517f7d738965e566da0f14c1c"
+    - "c2e1c7f557c1807a8a74a1683cb87655d748ba7c"
+    - "c2fc1d2c914599821fdb94e7a2c09345f34ea762"
+    - "c39cfc84dd77074d79841e63a4d31f7b218a9e78"
+    - "c4b2ed3421613788a72fa0e212a69564a2214ec7"
+    - "c4d778e8d87e97f8cd5736f89b1b373760ab7081"
+    - "c4e459308b39e642d1bda3307fb7e003be182f77"
+    - "c4f2af8e4db7fe38e1affc1b17023f6c3397515a"
+    - "c5f5320c3e774ad9bf4cb96d34216a6957b2dc90"
+    - "c6678f57e4be4eb466d1af6be2913c51c42db5dd"
+    - "c6f61ab8fee37e7ba911c940b22b8191c9481fe5"
+    - "c72acf5354645d61b3f4eacf62f51c3aafeb90dc"
+    - "c8214b97e8246415f5c13bf8bd5d0990e8fe8a6d"
+    - "c93ebefb65d3227e79df84a75e95b9c96361ede5"
+    - "c945bf9d3d447b5cf80c40a22e4cb12822c3a3f3"
+    - "ca4306714816ec641e476eea7295bd8d48cbae0f"
+    - "ca45c558b20cc2af2671558853a3544b3ad00eaa"
+    - "cbfe0c87f26179f47560d968fcea2903df9776eb"
+    - "cdcb2db9fd3f0b670ded938336974b039b2b2971"
+    - "ce2549e170478c5921e316b65479fd13b981e799"
+    - "ce4d3f6d264b90f801f0dc1a42b5052569e0c354"
+    - "ce829dae059fddb4efc89b6191bd25e23beaa5b2"
+    - "ceea79a185d6d0b68eec92505e83eaa4c1cf5dd6"
+    - "d030314cdaf1130b89798ade01c3031a1b3b4a94"
+    - "d03cf5c1a04442a90252194137e2f80a622a508d"
+    - "d165a6cdb0aa169e31b68453a757a9a418a0dbff"
+    - "d2032d2bef6dda274d8b16febaca866154c78766"
+    - "d234f4376040045c60c334371119319bcc4f1b21"
+    - "d25c280b82c05ba972555dae0e1e2fd45b7b93aa"
+    - "d4875c60a0de4067dcab966d2b9a288baf429988"
+    - "d494cf15e3a67bb4b3ccc83e4c46517c6d7d40fc"
+    - "d4a85f83e7f6bfdd3ff0159d35243a837ba42c77"
+    - "d4f74f6373109e65fdebb352ef5d741d998c1577"
+    - "d59cc07b29d391f2606e661fcb5799d26f6c3393"
+    - "d5ae0399c4fc172afdf1dda56e032a1d9ab55e16"
+    - "d5d9eafe778a32b63b61dd6b09abb8394e8d07c3"
+    - "d620222fcfd2760622231a17fa96c62f50eb331c"
+    - "d68fcd991b8bdeacac3008eb6d6b03ab1f1575a8"
+    - "d6a3b71f3371b02a9c49adfb2d0a98586f0460ce"
+    - "d7df92e30799aa1e8d4e52ffc465c24b631196df"
+    - "d80137668013d7cc3e84020f3d6dcc177b40278f"
+    - "d8276a8bab087d18d17bf54b02e10458290bfed4"
+    - "d83c592b73f04e2f9ef440e5a220a2f62d893fad"
+    - "d848772a2e778202ed9bf191040a5190c761aa6b"
+    - "d8687642ba528aa746c4667f650a6c1d960676f8"
+    - "d8d8b1fc9fa740646f9204eed554365ed763926b"
+    - "d8f4686507e9cc49c0dcfbc8c4aad91af6be2235"
+    - "d9fac6b8eda7706daf70d4d72de558c3565df44a"
+    - "db7f28055e5b38c9da6f0af4a5b59129de4966b7"
+    - "db8266f4f9bf43a7291ba16730556fb17f50a98f"
+    - "dc14cdf8de3b9754ecbc0f96636fd7d6e41690ad"
+    - "dd12f66a2734322bc96cf00c82356ffa0d59a554"
+    - "de11d3797f6c6d4bec7febc8992af164bf8cf34b"
+    - "df51ea24c806b84e7142fceb5609c8ccf524036d"
+    - "df9cdec934ee9d5383c546ca79575c57cfd5994b"
+    - "e0c0af6146dd54d1238ce3d2241615b451380ae8"
+    - "e1819c95a66aa046ee3074c8c0aaa38aa7cbe3d4"
+    - "e1ae5a32d0edae259fb1c05a3aaed80c70e0ed95"
+    - "e2a77c8230ac436687ea75c960317a5f6f37ca73"
+    - "e30cc14d888caea36e3c93cb6d39a6876c0ac2d6"
+    - "e3c214c07b19c3410031e50f476a5f31ec75067a"
+    - "e61f312eed93f37454714fc8c987b9e52a13914a"
+    - "e709841fa087052b08f5fe8aed49b7b732d6f8cd"
+    - "e7d6352bc13c4aa110cbd5bc541376ca5f301291"
+    - "e84ab00ca26c68e4138861e19ea304a40adf2ec1"
+    - "e8725be4c582d710f83982e24bfbd98846623f45"
+    - "e92258396c8c098bece02ccc2715bc17efa10fdf"
+    - "ea605a67504a0ee9da2052ad6da25ee3c0a0bad8"
+    - "eaa68297d27c18e32dffdbace4d0d4f12bb66f8c"
+    - "eabe892f3d11a4fa07dec33512b52079fd055320"
+    - "ead5aa283a33027392672a13505521a9057021f3"
+    - "ec24acd0303c4f526a3e713461c428aa1cb15ab1"
+    - "ecd269e0d6ed4bb65f4c47a226d71912fe376519"
+    - "ed6db2095e98203f64c3b23125f41f3b57417904"
+    - "ed9cc02ac92db92a5db7a84c8bb8ec9c3d0f7b17"
+    - "ed9d06c010f10b16231c40506764f7d9aeba7932"
+    - "ee34a1ba77461d6444ba67845f0f2db79057356c"
+    - "eebfedd941843f2e5bebaff75cab99bda535ba7e"
+    - "f021c244d4fd70bd469e89de229ad801b17a1c8c"
+    - "f11b2e74359f7835d86b3e941af34b743f6b1241"
+    - "f26f87bf180051d7416cab38ce595b625b034587"
+    - "f53adba04325a86830dfff1efd019a1c801cdff8"
+    - "f56c4059aa887126bd988ecd2f5258dc64417288"
+    - "f78daa42a28064b91f576d4b0e8606b73d52a2af"
+    - "f88bbba3af767b0bbead6492026f3f7e0b01a076"
+    - "f8a491e0a2394bbedfc96876e9ccb51a4760a420"
+    - "f8bacbe5c38ff39b1db17666bebb1d6c0f34bc53"
+    - "f97adfd199a4f0a46d5a46a1c68db82236ff1f90"
+    - "fa1dfe30b995851979cdeb816e42a288b168bb12"
+    - "fa90bac8a64bf9a6cdc35a7d6b6420bb3b0e6a47"
+    - "fb01229ac626e96c831ebb22103cb5bf2e7b0c4e"
+    - "fb5786d54cdd93450a23e12e4ac52f2d3a34bf43"
+    - "fb84741cfa9acd7d556530eb15385e925372aac7"
+    - "fecad533e67f299c88f80cead24ed719a2370872"
+    - "ff866caaa88707be7c458d015ad107fb2cd33a75"
+    - "fff2b0baf0f53021635c802dbd81ef3f269e686d"
+unclassified:
+  buildDiscarders:
+    configuredBuildDiscarders:
+    - "jobBuildDiscarder"
+  buildStepOperation:
+    enabled: false
+  casCGlobalConfig:
+    configurationPath: "/var/jenkins_home/workspace/Jenkins/jenkins_seedjob/credentials.yaml"
+  email-ext:
+    adminRequiredForTemplateTesting: true
+    allowUnregisteredEnabled: false
+    allowedDomains: "@9930i.com,@shahsoftsol.com,@gmail.com"
+    charset: "UTF-8"
+    debugMode: false
+    defaultBody: "$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:\r\n\r\nCheck\
+      \ console output at $BUILD_URL to view the results."
+    defaultContentType: "text/html"
+    defaultRecipients: "jenkins@shahsoftsol.com,dhruv@9930i.com"
+    defaultReplyTo: "jenkins@shahsoftsol.com,dhruv@9930i.com"
+    defaultSubject: "Build $BUILD_STATUS - $PROJECT_NAME  # $BUILD_NUMBER!"
+    defaultSuffix: "@shahsoftsol.com"
+    defaultTriggerIds:
+    - "hudson.plugins.emailext.plugins.trigger.FailureTrigger"
+    mailAccount:
+      advProperties: "Jenkins"
+      credentialsId: "34e1da90-8d53-44f4-a4be-1f9be35cc3cb"
+      smtpHost: "cwp.9930i.com"
+      smtpPort: "587"
+      useTls: true
+    maxAttachmentSize: 10485760
+    maxAttachmentSizeMb: 10
+    precedenceBulk: true
+    watchingEnabled: false
+  fingerprints:
+    fingerprintCleanupDisabled: false
+    storage: "file"
+  gitHubConfiguration:
+    apiRateLimitChecker: ThrottleForNormalize
+  gitHubPluginConfig:
+    hookUrl: "https://jenkins.admin.9930i.com/github-webhook/"
+  gitSCM:
+    addGitTagAction: false
+    allowSecondFetch: false
+    createAccountBasedOnEmail: false
+    disableGitToolChooser: false
+    globalConfigEmail: "dhroopy@gmail.com"
+    globalConfigName: "dhroopy"
+    hideCredentials: false
+    showEntireCommitSummaryInChanges: false
+    useExistingAccountWithSameEmail: true
+  hashicorpVault:
+    configuration:
+      engineVersion: 2
+      timeout: 60
+  junitTestResultStorage:
+    storage: "file"
+  location:
+    adminAddress: "dhruv@9930i.com"
+    url: "https://jenkins.admin.9930i.com/"
+  mailer:
+    authentication:
+      password: "{AQAAABAAAAAQ9Ccu2tBA1b2FLFZZ4oRrsJpp9rzp03TRV4xU6SvcT9U=}"
+      username: "devops-notifications@shahsoftsol.com"
+    charset: "UTF-8"
+    defaultSuffix: "@shahsoftsol.com"
+    replyToAddress: "jenkins@shahsoftsol.com"
+    smtpHost: "cwp.9930i.com"
+    smtpPort: "587"
+    useSsl: true
+    useTls: true
+  mavenModuleSet:
+    localRepository: "default"
+  pollSCM:
+    pollingThreadCount: 10
+  sonarGlobalConfiguration:
+    buildWrapperEnabled: false
+  timestamper:
+    allPipelines: false
+    elapsedTimeFormat: "'<b>'HH:mm:ss.S'</b> '"
+    systemTimeFormat: "'<b>'HH:mm:ss'</b> '"
+  upstream:
+    globalUpstreamFilterStrategy: UseOldest
+  whitelist:
+    enabled: false
+    whitelistItems:
+    - hmacAlgorithm: "HmacSHA256"
+tool:
+  git:
+    installations:
+    - home: "/usr/bin/git"
+      name: "Default"
+  mavenGlobalConfig:
+    globalSettingsProvider: "standard"
+    settingsProvider: "standard"
