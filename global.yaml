@@ -773,3 +773,9 @@ tool:
   mavenGlobalConfig:
     globalSettingsProvider: "standard"
     settingsProvider: "standard"
+    
+jobs: 
+  - file: /var/jenkins_home/workspace/Jenkins/reload_test/jobs/test/folder.groovy
+  - file: /var/jenkins_home/workspace/Jenkins/reload_test/jobs/test/testJob.groovy
+  - file: /var/jenkins_home/workspace/Jenkins/reload_test/jobs/hello_world.groovy
+  - file: /var/jenkins_home/workspace/Jenkins/reload_test/jobs/seed_all.groovy
