@@ -170,7 +170,7 @@ credentials:
           - string:
               scope: GLOBAL
               id: "casc_reload_token"
-              secret: "ahtaiN5AhxaingiepeizooThuubiXopeeGo5Pohh1reerie7EdeshaethooBaiv3quo8ahnguideishieGoojeecoz1koom9aGoh8pieb1Eishopohc0Enicoo5Aes5xoveeloehohbay8xe4iek6epheiche3AhKee3ed1Eiy6vaethah1FaiFei1eisooNaexaibog7uquahphoow1neazu3pahw5aath3ouVeeceoBukeediaS0fae7johhee6ohzohlei6viv2ohm6vohku2ohb3lid8ceaph4Thee1wuxeaquie4geewogoovaquae3iizaim4phelaeZ1iegh2Ao8coo3iMohh6fah9phef3Pie5rook8iesai1ahwie3ia3ooPaish0ietaePhie0naeb0ia9ebaeWieth2iovaiM8ohdo8iexaap3iexemo6ahdoosho9aiF0hahg0obuz9ailoo5woot0OosahJohch2eeGheiziet9Hah5xah1ogu"
+              secret: "117f3bd4d3fe27bf197be96104c86f4afe"
               description: "Jenkins Casc Reload Token"
           - string:
               scope: GLOBAL
