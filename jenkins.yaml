@@ -19,7 +19,7 @@ credentials:
               id: "jenkins_ssh_slave_do_1"
               username: "root"
               passphrase:  ""
-              description: "Jenkins slave ssh private key just checking test"
+              description: "Jenkins slave ssh private key TEST number 1"
               privateKeySource:
                 directEntry:
                   privateKey: |
