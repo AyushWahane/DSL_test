@@ -8,3 +8,9 @@ credentials:
           password: "{somerandompassword}"
           scope: GLOBAL
           username: "somerandomusername"
+      - usernamePassword:
+          description: "2nd_test_creds"
+          id: "test_ID"
+          password: "{2ndsomerandompassword}"
+          scope: GLOBAL
+          username: "2ndsomerandomusername"
