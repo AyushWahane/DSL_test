@@ -15,11 +15,11 @@ credentials:
                   description: "Jenkins Casc Reload Token"        
                   
           - basicSSHUserPrivateKey:
-                  scope: GLOBAL
-                  id: "jenkins_ssh_slave_do_1"
-                  username: "AyushWahane"
-                  passphrase:  ""
-                  description: "git ssh private key"
-                  privateKeySource:
-                    directEntry:
-                      privateKey:  ${{ GH_CONFIG }}      
+              scope: GLOBAL
+              id: "jenkins_ssh_slave_do_1"
+              username: "AyushWahane"
+              passphrase:  ""
+              description: "git ssh private key"
+              privateKeySource:
+                directEntry:
+                  privateKey:  ${{ GH_CONFIG }}      
