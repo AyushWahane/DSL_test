@@ -8,18 +8,18 @@ credentials:
               username: "dfgbhnjmk"
               password: "bgvfcdxsxfcgvhbjn"
               scope: GLOBAL
-      - string:
-              scope: GLOBAL
-              id: "casc_reload_token"
-              secret: "117f3bd4d3fe27bf197be96104c86f4afe"
-              description: "Jenkins Casc Reload Token"        
-              
-      - basicSSHUserPrivateKey:
-              scope: GLOBAL
-              id: "jenkins_ssh_slave_do_1"
-              username: "AyushWahane"
-              passphrase:  ""
-              description: "git ssh private key"
-              privateKeySource:
-                directEntry:
-                  privateKey:  ${{ GH_CONFIG }}      
+          - string:
+                  scope: GLOBAL
+                  id: "casc_reload_token"
+                  secret: "117f3bd4d3fe27bf197be96104c86f4afe"
+                  description: "Jenkins Casc Reload Token"        
+                  
+          - basicSSHUserPrivateKey:
+                  scope: GLOBAL
+                  id: "jenkins_ssh_slave_do_1"
+                  username: "AyushWahane"
+                  passphrase:  ""
+                  description: "git ssh private key"
+                  privateKeySource:
+                    directEntry:
+                      privateKey:  ${{ GH_CONFIG }}      
