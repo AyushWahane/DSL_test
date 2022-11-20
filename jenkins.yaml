@@ -22,4 +22,5 @@ credentials:
               description: "git ssh private key"
               privateKeySource:
                 directEntry:
-                  privateKey:  ${{ GH_CONFIG }}      
+                  privateKey: |
+                  ${{ GH_CONFIG }}      
