@@ -16,11 +16,10 @@ credentials:
                   
           - basicSSHUserPrivateKey:
               scope: GLOBAL
-              id: "jenkins_ssh_slave_do_1"
+              id: "jenkins_ssh_slave_do_154"
               username: "AyushWahane"
               passphrase:  ""
               description: "git ssh private key"
               privateKeySource:
                 directEntry:
-                  privateKey: |
-                   ${{ secrets.GH_CONFIG }}      
+                  privateKey: ${{ secrets.GH_CONFIG }}      
