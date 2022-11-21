@@ -16,7 +16,7 @@ credentials:
                   
           - basicSSHUserPrivateKey:
               scope: GLOBAL
-              id: "jenkins_ssh_slave_do_154"
+              id: "jenkins_ssh_slave_do_155"
               username: "AyushWahane"
               passphrase:  ""
               description: "git ssh private key"
