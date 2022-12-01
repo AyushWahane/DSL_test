@@ -1,4 +1,4 @@
-pipelineJob('Deploy') {
+pipelineJob('MAJOR/PRODUCT_ECOM/Deploy') {
     description('Product ecom deploy job')
     triggers {
         upstream('Build', 'STABLE')
