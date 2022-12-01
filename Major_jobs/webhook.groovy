@@ -1,4 +1,4 @@
-job('webhook') {
+job('MAJOR/PRODUCT_ECOM/webhook') {
     scm {
         git {
             remote {
