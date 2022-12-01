@@ -1,4 +1,4 @@
-pipelineJob('Build') {
+pipelineJob('MAJOR/PRODUCT_ECOM/Build') {
     description('Product ecom build job')
     triggers {
         upstream('webhook', 'UNSTABLE')
