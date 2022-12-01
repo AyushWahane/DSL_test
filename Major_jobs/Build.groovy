@@ -8,7 +8,7 @@ pipelineJob('Build') {
         cps {
             script('''pipeline {
     environment {
-        registry = "krishna1708/minor_test1"
+        registry = "krishna1708/"
         registryCredential = ''
         dockerImage = ''
     }
